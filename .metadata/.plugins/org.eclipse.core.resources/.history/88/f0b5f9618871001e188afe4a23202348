@@ -1,0 +1,20 @@
+package sec04.exam02;
+
+public class KeyCodeExample {
+
+	public static void main(String[] args) throws Exception {
+		int keyCode;
+		
+		keyCode = System.in.read(97);
+		System.out.println("keyCode: " + keyCode);
+		
+		keyCode = System.in.read(13);
+		System.out.println("keyCode: " + keyCode);
+		
+		keyCode = System.in.read(10);
+		System.out.println("keyCode: " + keyCode);
+	
+		// 이건 전혀 이해하지 못했다. 다음시간에 질문하자
+	}
+
+}

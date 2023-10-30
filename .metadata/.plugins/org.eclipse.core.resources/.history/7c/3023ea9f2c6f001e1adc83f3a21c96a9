@@ -1,0 +1,16 @@
+package sec03.exam07;
+
+public class PrimitiveAndStringConversionExample {
+
+	public static void main(String[] args) {
+		
+		//Integer.parseInt 와 String.valueOf 연습하기
+		
+		
+		
+		
+		int value1 = Integer.parseInt(null)
+
+	}
+
+}

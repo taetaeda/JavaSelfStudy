@@ -1,0 +1,14 @@
+package sec04.exam01;
+
+public class PrintfExample {
+
+	public static void main(String[] args) {
+		int value = 123;
+		System.out.printf("상품의 가격:%d원\n", value); //%d는 정수
+		System.out.printf("상품의 가격:%6d원\n", value); //6자리 정수인데 왼쪽 공백
+		System.out.printf("상품의 가격:%-6d원", value); //6자리 정수인데 오른쪽 공백
+		System.out.println("상품의 가격:%06d원", value); //6자리 정수인데 왼쪽 빈자리를 0으로 채움
+
+	}
+
+}

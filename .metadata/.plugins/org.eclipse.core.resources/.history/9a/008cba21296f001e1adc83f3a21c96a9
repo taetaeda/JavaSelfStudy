@@ -1,0 +1,19 @@
+package sec03.exam05;
+
+public class OperationPromotionExample {
+
+	public static void main(String[] args) {
+
+		byte byteValue1 = 10;
+		byte byteValue2 = 20+30;
+		byte byteValue3 = (byte) (byteValue1 & byteValue2); //컴파일 에러 발생 - 왜?
+		int intValue1 = byteValue1 + byteValue2;
+		System.out.println(intValue1);
+		
+		char charValue1 = 'A';
+		char charValue2 = 1;
+		System.out.println(charValue2);
+		//char charValue3 = charValue1 + charValue2; //컴파일 에러 발생 - 
+	}
+
+}

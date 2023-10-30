@@ -1,0 +1,21 @@
+package conditional.exam03;
+
+public class IfElseIfElseExample {
+
+	public static void main(String[] args) {
+		
+		int score = 50;
+		
+		if(score>=90) {
+			System.out.println("점수가 100-90 등급 a");
+		} else if(score>=80){
+			System.out.println("점수가 90-80이고 b");
+		} else if(score>=70) {
+			System.out.println("점수가 80-70이고 c");
+		} else {
+			System.out.println("점수가 70보다 미만이라 d");
+		}
+
+	}
+
+}

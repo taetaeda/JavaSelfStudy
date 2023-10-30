@@ -1,0 +1,21 @@
+package sec04.exam05;
+
+import java.util.Scanner;
+
+public class ScannerExample {
+
+	public static void main(String[] args) throws Exception {
+		Scanner scanner = new Scanner(System.in); // 스캐너 생성
+		String inputData; //inputData라는 문자 타입 변수 선언
+		
+		while(true) {
+			inputData = scanner.nextLine(); // 입력된 내용을 문자열로 읽음
+			System.out.printf("입력된 문자열: " + "%s", inputData);
+			if(inputData.equals("q")) {
+				break;
+			}
+		}
+		
+	}
+
+}

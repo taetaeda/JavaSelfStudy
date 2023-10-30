@@ -10,6 +10,7 @@ public class VariableScopeExample {
 		}
 		int v3 = v1 + v2 + 5;
 		// v2는 안쪽 괄호에서 선언한 변수이므로 여기서 사용될 수 없어
+		// 컴파일 에러가 발생한다.
 
 	}
 
